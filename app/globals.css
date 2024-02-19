@@ -55,7 +55,7 @@ body {
   }
 
   .regular-24 {
-    @apply text-[24px] font-[400];
+    @apply text-[24px] font-[300];
   }
 
   .regular-20 {
@@ -84,6 +84,10 @@ body {
 
   .bold-64 {
     @apply text-[64px] font-[700] leading-[120%];
+  }
+
+  .bold-68 {
+    @apply text-[68px] font-[700] leading-[120%];
   }
 
   .bold-52 {
