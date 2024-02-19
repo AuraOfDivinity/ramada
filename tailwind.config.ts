@@ -11,6 +11,13 @@ module.exports = {
         red: {
           primary: "#D11242",
         },
+        gray: {
+          primary: "#848484",
+          secondary: "#585858",
+        },
+        black: {
+          primary: "#000000",
+        },
       },
       screens: {
         xs: "400px",
