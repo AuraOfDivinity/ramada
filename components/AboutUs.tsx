@@ -24,7 +24,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        /** TODO: Extract to single style */
+        {/* TODO: Extract to single style */}
         <div className="flex-1">
           <div className="flex justify-end">
             <div
