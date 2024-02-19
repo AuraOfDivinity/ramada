@@ -34,6 +34,9 @@ module.exports = {
         primary: "Cormorant Garmond",
         secondary: "Open Sans",
       },
+      backgroundImage: {
+        "about-us": "url('/aboutus.jpeg')",
+      },
     },
   },
   plugins: [],
