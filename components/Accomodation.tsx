@@ -35,7 +35,7 @@ type SuiteCardProps = {
 };
 const SuiteCard = ({ suiteName, imageUrl, features }: SuiteCardProps) => {
   return (
-    <div className=" rounded-md overflow-hidden shadow-lg">
+    <div className="rounded-md overflow-hidden shadow-lg">
       <Image
         className="w-full p-3 rounded-2xl max-h-[200px]"
         src={imageUrl}

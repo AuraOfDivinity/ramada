@@ -60,3 +60,24 @@ export const SUITES_LIST = [
     ],
   },
 ];
+
+export const BANQUETS_LIST = [
+  {
+    name: "The Liberty Ballroom",
+    imageUrl: "/liberty1.jpeg",
+    description:
+      "An idyllic setting for any grand wedding celebration or special occasion. Liberty Ball Room offers a spacious and lavish ambience to ensure a truly memorable occasion.",
+  },
+  {
+    name: "The Liberty Ballroom",
+    imageUrl: "/liberty2.jpeg",
+    description:
+      "An idyllic setting for any grand wedding celebration or special occasion. Liberty Ball Room offers a spacious and lavish ambience to ensure a truly memorable occasion.",
+  },
+  {
+    name: "The Liberty Ballroom",
+    imageUrl: "/liberty3.jpeg",
+    description:
+      "An idyllic setting for any grand wedding celebration or special occasion. Liberty Ball Room offers a spacious and lavish ambience to ensure a truly memorable occasion.",
+  },
+];
