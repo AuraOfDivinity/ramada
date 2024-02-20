@@ -3,7 +3,7 @@ import { MoveRight } from "lucide-react";
 
 const AboutUs = () => {
   return (
-    <section className="flexCenter py-20">
+    <section className="flexCenter pt-20">
       <div className="flex max-container padding-container relative w-full">
         <div className="flex flex-col flex-1 max-w-[50%]">
           <div className="font-primary regular-26 text-red-primary pb-2">
