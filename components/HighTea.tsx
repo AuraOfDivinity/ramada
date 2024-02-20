@@ -21,16 +21,16 @@ const HighTea = () => {
               buffet delicacies.
             </div>
           </div>
-          <div className="flex lg:flex-row md:flex-col sm:flex-col py-8">
+          <div className="flex lg:flex-row xs:flex-col md:flex-row sm:flex-col py-8">
             <Image
-              className="w-full rounded-2xl min-h-[360px] mr-2"
+              className="w-full rounded-2xl min-h-[360px] mr-2 sm:m-2 x:m-2"
               src="/hightea1.jpeg"
               alt="suite image"
               width={440}
               height={350}
             />
             <Image
-              className="w-full rounded-2xl min-h-[360px] ml-2"
+              className="w-full rounded-2xl min-h-[360px] lg:ml-2 md:ml-2 sm:mt-2 xs:mt-2"
               src="/hightea2.jpeg"
               alt="suite image"
               width={440}
