@@ -67,7 +67,7 @@ const Testimonials = () => {
                       .fill(1)
                       .map((_, index) => (
                         <Image
-                          src="/star.png"
+                          src="/Star.png"
                           key={index}
                           alt="star"
                           width={24}
