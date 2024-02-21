@@ -29,7 +29,7 @@ module.exports = {
         },
       },
       screens: {
-        xs: "400px",
+        xs: "380px",
         "3xl": "1680px",
         "4xl": "2200px",
       },

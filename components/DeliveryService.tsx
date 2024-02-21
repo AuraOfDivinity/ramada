@@ -12,15 +12,15 @@ const DeliveryService = () => {
           <div className="font-primary bold-40 text-gray-primary capitalize">
             Giving your hunger a safer, faster and better alternative
           </div>
-          <div className="flex flex-row">
+          <div className="flex flex-row sm:flex-col xs:flex-col lg:flex-row">
             <Image
               src="/takeaway.jpeg"
               alt="delivery image"
               width={300}
               height={300}
-              className=" h-[615px] object-cover rounded-lg max-h-[600px] mr-2 flex-1"
+              className=" h-[615px] object-cover rounded-lg max-h-[600px] mr-2 flex-1 md:w-full sm:w-full xs:w-full"
             />
-            <div className="flex flex-col items-center ml-4 flex-1 justify-center">
+            <div className="flex flex-col items-center lg:ml-4  flex-1 justify-center">
               <div className="font-secondary regular-16 text-black-primary capitalize whitespace-pre-wrap">
                 {deliveryMainText}
               </div>

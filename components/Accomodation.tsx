@@ -13,7 +13,7 @@ const Accomodation = () => {
           <div className="font-primary bold-40 text-gray-primary">
             Comfortable rooms just for you
           </div>
-          <ul className="grid md:grid-cols-4 gap-x-7">
+          <ul className="grid md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-1 xs:grid-cols-1 sm:gap-x-2 lg:gap-x-7">
             {SUITES_LIST.map((suite) => (
               <SuiteCard
                 key={suite.name}
@@ -38,7 +38,7 @@ const SuiteCard = ({ suiteName, imageUrl, features }: SuiteCardProps) => {
   return (
     <div className="rounded-md overflow-hidden shadow-lg">
       <Image
-        className="w-full p-3 rounded-2xl max-h-[200px]"
+        className="w-full p-3 rounded-2xl md:max-h-[180px] lg:max-h-[180px] "
         src={imageUrl}
         alt="suite image"
         width={250}

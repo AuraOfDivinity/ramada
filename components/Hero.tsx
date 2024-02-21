@@ -16,11 +16,11 @@ const Hero = () => {
         />
       </div>
 
-      <div className="absolute flex py-40 pl-60 flex-col  min-h-80 justify-center">
-        <div className="uppercase whitespace-pre font-primary text-white regular-64">
+      <div className="absolute flex lg:py-40 lg:pl-60 xl:pl-72 flex-col sm:pl-10 xs:px-10 min-h-80 justify-center">
+        <div className="uppercase lg:whitespace-pre md:whitespace-pre font-primary text-white lg:regular-64 md:regular-40 sm:regula-32 xs:regular-16">
           {heroHeadingText}
         </div>
-        <div className="whitespace-pre font-secondary regular-24 text-white">
+        <div className="lg:whitespace-pre md:whitespace-pre font-secondary lg:regular-24 md:regular20 sm:regular-16 xs:regular-16 text-white">
           {heroSubText}
         </div>
       </div>

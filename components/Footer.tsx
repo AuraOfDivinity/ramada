@@ -30,8 +30,8 @@ const Footer = () => {
           </div>
         </form>
       </div>
-      <div className="flex mt-6 px-10">
-        <div className="flex flex-col ml-20 mt-10 w-64">
+      <div className="flex mt-6 px-10  sm:flex-col xs:flex-col md:flex-col lg:flex-row">
+        <div className="flex flex-col lg:ml-20 mt-10 w-64">
           <div className="text-white regular-16 mb-4 ml-4">Links</div>
           <ul className="list-disc ml-7 my-1">
             {FOOTER_LINKS.map((item, index) => (
@@ -41,7 +41,7 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-        <div className="flex flex-col ml-28 mt-10 grow w-64">
+        <div className="flex flex-col lg:ml-28 mt-10 grow w-64">
           <div className="text-white regular-16 mb-4 ml-4 uppercase">
             RAMADA BY WYNDHAM COLOMBO
           </div>
@@ -72,7 +72,7 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col ml-20 mt-10 grow">
+        <div className="flex flex-col lg:ml-20 mt-10 grow">
           <div className="flex m-auto">
             <Image
               src="/TC.png"

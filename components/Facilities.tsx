@@ -15,17 +15,20 @@ const Facilities = () => {
             Enjoy completed and best quality facilities
           </div>
           {FACILITIES_LIST.map((facility) => (
-            <div className="flex flex-row mt-8" key={facility.name}>
+            <div
+              className="flex lg:flex-row md:flex-col  sm:flex-col xs:flex-col mt-8"
+              key={facility.name}
+            >
               <div className="w-[40%]">
                 <Image
-                  className="my-4 rounded-lg  bg-cover max-w-[448px]"
+                  className="my-4 rounded-lg xs:min-w-[350px] bg-cover"
                   src={facility.imageUrl}
                   alt={facility.name}
                   width={448}
                   height={224}
                 />
               </div>
-              <div className="w-[60%] flex-col p-2">
+              <div className="w-[60%] flex-col p-2 xs:min-w-[350px]">
                 <div className="font-primary bold-36 text-black-primary my-4">
                   {facility.name}
                 </div>

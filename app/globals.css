@@ -56,11 +56,11 @@ body {
   }
 
   .regular-40 {
-    @apply text-[40px] font-[400] leading-[120%];
+    @apply text-[40px] font-[300] leading-[120%];
   }
 
   .regular-32 {
-    @apply text-[32px] font-[400];
+    @apply text-[32px] font-[300];
   }
 
   .regular-24 {
