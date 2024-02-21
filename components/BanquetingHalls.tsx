@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const BanquetingHalls = () => {
   return (
-    <section className="flexCenter py-20">
+    <section className="flexCenter py-20" id="banquets">
       <div className="flex max-container padding-container relative w-full">
         <div className="flex flex-col flex-1">
           <div className="font-primary regular-26 text-red-primary pb-2">

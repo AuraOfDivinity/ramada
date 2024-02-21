@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Accomodation = () => {
   return (
-    <section className="flexCenter py-20">
+    <section className="flexCenter py-20" id="accomodation">
       <div className="flex max-container padding-container relative w-full">
         {/* extract into single styles */}
         <div className="flex flex-col flex-1">

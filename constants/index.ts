@@ -1,10 +1,10 @@
 export const NAV_LINKS = [
-  { href: "/", key: "accomodation", label: "Accomodation" },
+  { href: "#accomodation", key: "accomodation", label: "Accomodation" },
   { href: "/", key: "restaurants", label: "Restaurants" },
-  { href: "/", key: "banquets", label: "Banquets" },
-  { href: "/", key: "amenities ", label: "Amenities " },
-  { href: "/", key: "explore_us", label: "Explore Us" },
-  { href: "/", key: "delivery", label: "Delivery" },
+  { href: "#banquets", key: "banquets", label: "Banquets" },
+  { href: "#amenities", key: "amenities ", label: "Amenities " },
+  { href: "#explore", key: "explore_us", label: "Explore Us" },
+  { href: "/#delivery", key: "delivery", label: "Delivery" },
 ];
 
 // HERO SECTION
