@@ -31,7 +31,7 @@ module.exports = {
         "5xl": "40px",
       },
       fontFamily: {
-        primary: "Cormorant Garmond",
+        primary: "GaramondPro",
         secondary: "Open Sans",
       },
       backgroundImage: {

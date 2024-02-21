@@ -6,6 +6,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: GaramondPro;
+  src: url("/fonts/GaramondPremierPro.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
