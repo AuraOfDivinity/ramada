@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
           <div className="flex">
             <Image
-              src="/facebook.png"
+              src="/Facebook.png"
               alt="star"
               width={44}
               height={44}
@@ -64,7 +64,7 @@ const Footer = () => {
               className="ml-2"
             />
             <Image
-              src="/youtube.png"
+              src="/Youtube.png"
               alt="star"
               width={44}
               height={44}
