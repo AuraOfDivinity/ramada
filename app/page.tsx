@@ -4,6 +4,7 @@ import BanquetingHalls from "@/components/BanquetingHalls";
 import DeliveryService from "@/components/DeliveryService";
 import Hero from "@/components/Hero";
 import HighTea from "@/components/HighTea";
+import Offers from "@/components/Offers";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <BanquetingHalls />
       <HighTea />
       <DeliveryService />
+      <Offers />
     </>
   );
 }
