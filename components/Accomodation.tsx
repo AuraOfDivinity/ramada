@@ -16,6 +16,7 @@ const Accomodation = () => {
           <ul className="grid md:grid-cols-4 gap-x-7">
             {SUITES_LIST.map((suite) => (
               <SuiteCard
+                key={suite.name}
                 suiteName={suite.name}
                 features={suite.features}
                 imageUrl={suite.imageUrl}
@@ -49,8 +50,11 @@ const SuiteCard = ({ suiteName, imageUrl, features }: SuiteCardProps) => {
         </div>
       </div>
       <ul className="list-disc ml-7 my-1">
-        {features.map((feature) => (
-          <li className="regular-16 font-secondary text-black-primary">
+        {features.map((feature, index) => (
+          <li
+            className="regular-16 font-secondary text-black-primary"
+            key={index}
+          >
             {feature}
           </li>
         ))}

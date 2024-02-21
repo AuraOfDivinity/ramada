@@ -81,3 +81,9 @@ export const BANQUETS_LIST = [
       "An idyllic setting for any grand wedding celebration or special occasion. Liberty Ball Room offers a spacious and lavish ambience to ensure a truly memorable occasion.",
   },
 ];
+
+// DELIVERY
+export const deliveryMainText =
+  "users can pay directly through our website with Visa or MasterCard or opt for cash or card payment on delivery! Our website is extremely user friendly and offers a stress-freeordering experience with the option to schedule a delivery on aparticular date or time.\n\nOur delivery radius will be from Colombo 1-15 and will include areas in Mount Lavinia, Nawala, Nugegoda, Kohuwala, Dehiwala, Rajagiriya, Welikada, Wellampitiya, Ethul Kotte, Kolonnawa, Sri Jayawardenapura Kotte, Pelawatta, Kotikawatta, Battaramulla, Pita Kotte, Attidiya, Mirihana, Koswatta. If you reside in any of the above locations, orders will be delivered subjected to a delivery charge. \n\n";
+export const deliverySubText =
+  "Delivery times are between 10 am to 10 pm.\n\nFor more information contact us on (+94) 112 422 001, Ext. 399 or (+94) 777 864 864";

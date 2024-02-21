@@ -20,6 +20,7 @@ const BanquetingHalls = () => {
           <ul className="grid md:grid-cols-3 gap-x-7">
             {BANQUETS_LIST.map((banquet) => (
               <BanquetItem
+                key={banquet.name}
                 name={banquet.name}
                 description={banquet.description}
                 imageUrl={banquet.imageUrl}
