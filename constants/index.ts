@@ -87,3 +87,37 @@ export const deliveryMainText =
   "users can pay directly through our website with Visa or MasterCard or opt for cash or card payment on delivery! Our website is extremely user friendly and offers a stress-freeordering experience with the option to schedule a delivery on aparticular date or time.\n\nOur delivery radius will be from Colombo 1-15 and will include areas in Mount Lavinia, Nawala, Nugegoda, Kohuwala, Dehiwala, Rajagiriya, Welikada, Wellampitiya, Ethul Kotte, Kolonnawa, Sri Jayawardenapura Kotte, Pelawatta, Kotikawatta, Battaramulla, Pita Kotte, Attidiya, Mirihana, Koswatta. If you reside in any of the above locations, orders will be delivered subjected to a delivery charge. \n\n";
 export const deliverySubText =
   "Delivery times are between 10 am to 10 pm.\n\nFor more information contact us on (+94) 112 422 001, Ext. 399 or (+94) 777 864 864";
+
+// Facilities
+export const FACILITIES_LIST = [
+  {
+    name: "Gym",
+    imageUrl: "/gym.jpeg",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown .Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+  {
+    name: "Ayu Balinese Spa",
+    imageUrl: "/spa.jpeg",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown .Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+  {
+    name: "Sauna",
+    imageUrl: "/sauna.jpeg",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown .Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+  {
+    name: "Steam",
+    imageUrl: "/steam.jpeg",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown .Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+  {
+    name: "Swimming Pool",
+    imageUrl: "/pool.jpeg",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown .Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+];
