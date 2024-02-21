@@ -20,7 +20,7 @@ const Testimonials = () => {
                       src={testimonial.imageUrl}
                       alt="Bonnie image"
                     />
-                    <div className="text-secondary text-black-primary regular-16 px-10 text-justify leading-5 mt-4">
+                    <div className="font-secondary text-black-primary regular-16 px-10  leading-5 mt-4">
                       {testimonial.description}
                     </div>
                     <div className="flex items-center gap-1 mt-3">

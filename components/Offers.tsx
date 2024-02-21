@@ -2,7 +2,7 @@ import React from "react";
 
 const Offers = () => {
   return (
-    <section className="flexCenter pt-20">
+    <section className="flexCenter pt-20" id="promotions">
       <div className="flex max-container padding-container relative w-full shadow-2xl rounded-lg">
         <div className="flex flex-col text-center">
           <div className="font-primary regular-26 text-red-primary  pt-10">
