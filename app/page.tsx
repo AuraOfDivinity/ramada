@@ -6,6 +6,7 @@ import Facilities from "@/components/Facilities";
 import Hero from "@/components/Hero";
 import HighTea from "@/components/HighTea";
 import Offers from "@/components/Offers";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <HighTea />
       <DeliveryService />
       <Offers />
+      <Testimonials />
     </>
   );
 }
