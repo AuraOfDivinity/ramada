@@ -1,5 +1,7 @@
 import { heroHeadingText, heroSubText } from "@/constants";
+import { ChevronDown, Calendar, Search } from "lucide-react";
 import Image from "next/image";
+import BookingsBar from "./BookingsBar";
 
 const Hero = () => {
   return (
@@ -15,6 +17,7 @@ const Hero = () => {
           style={{ maxHeight: "700px", width: "100%", height: "auto" }}
         />
       </div>
+      <BookingsBar />
 
       <div className="absolute flex lg:py-40 lg:pl-60 xl:pl-72 flex-col sm:pl-10 xs:px-10 min-h-80 justify-center">
         <div className="uppercase lg:whitespace-pre md:whitespace-pre font-primary text-white lg:regular-64 md:regular-40 sm:regula-32 xs:regular-16">
