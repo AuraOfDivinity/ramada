@@ -54,7 +54,7 @@ const Testimonials = () => {
                     src="/user1.jpeg"
                     alt="Bonnie image"
                   />
-                  <div className="text-secondary text-black-primary regular-16 px-10 text-justify leading-5 mt-4">
+                  <div className="font-secondary text-black-primary regular-16 px-10 text-justify leading-5 mt-4">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s, when an unknown
