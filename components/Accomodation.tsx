@@ -13,7 +13,7 @@ const Accomodation = () => {
           <div className="font-primary bold-40 text-gray-primary">
             Comfortable rooms just for you
           </div>
-          <ul className="grid md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-1 xs:grid-cols-1 sm:gap-x-2 lg:gap-x-7">
+          <ul className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 sm:grid-cols-1 xs:grid-cols-1 sm:gap-x-2 lg:gap-x-7">
             {SUITES_LIST.map((suite) => (
               <SuiteCard
                 key={suite.name}
