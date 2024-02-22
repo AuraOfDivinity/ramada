@@ -24,13 +24,13 @@ const Footer = () => {
               className="block w-full p-4 ps-10 text-sm text-gray-primary  font-secondary regular-16 rounded-sm bg-white h-[58px]"
               placeholder="Enter Your Email Here"
             />
-            <button className="min-w-[20%] absolute end-2.5 bottom-2.5 bg-red-primary  text-white font-primary regular-24 rounded-sm  px-4 py-0.5">
+            <button className="min-w-[20%] xl:absolute sm:w-[100%] xs:w-[100%] xl:w-[25%] end-2.5 bottom-2.5 bg-red-primary  text-white font-primary regular-24 rounded-sm  px-4 py-0.5">
               Get In Touch
             </button>
           </div>
         </form>
       </div>
-      <div className="flex mt-6 px-10  sm:flex-col xs:flex-col md:flex-col lg:flex-row">
+      <div className="flex mt-6 px-10  sm:flex-col xs:flex-col md:flex-col lg:flex-col xl:flex-row">
         <div className="flex flex-col lg:ml-20 mt-10 w-64">
           <div className="text-white regular-16 mb-4 ml-4">Links</div>
           <ul className="list-disc ml-7 my-1">
