@@ -25,7 +25,7 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          <div className="flex-1 sm:hidden xs:hidden md:hidden lg:inline">
+          <div className="flex-1 sm:hidden xs:hidden md:hidden lg:hidden xl:inline">
             <div className="flex justify-end">
               <div
                 className="overflow-hidden bg-no-repeat bg-about-us rounded-lg"
