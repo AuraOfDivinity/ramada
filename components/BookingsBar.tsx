@@ -3,9 +3,9 @@ import { Calendar, ChevronDown, Search } from "lucide-react";
 const BookingsBar = () => {
   return (
     <div className="flexCenter max-container padding-container w-full">
-      <div className="xl:absolute lg:absolute bg-white xl:w-[65%] lg:w-[65%] border-2 p-6">
-        <div className="flex">
-          <div className="w-[20%] p-2 flex bg-gray-tertiary rounded-tr-lg rounded-tl-lg border-b-2 border-red-secondary">
+      <div className="xl:absolute lg:absolute bg-white xl:w-[65%] lg:w-[65%] w-full border-2 p-6">
+        <div className="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col xs:flex-col">
+          <div className="xl:w-[20%] lg:w-[20%] w-full p-2 flex bg-gray-tertiary rounded-tr-lg rounded-tl-lg border-b-2 border-red-secondary my-4 lg:my-0 xl:my-0">
             <button
               id="dropdownDefaultButton"
               data-dropdown-toggle="dropdown"
@@ -16,7 +16,7 @@ const BookingsBar = () => {
             </button>
             <ChevronDown size={20} color="#d21243" className="my-auto" />
           </div>
-          <div className="w-[20%] p-2 flex bg-gray-tertiary rounded-tr-lg rounded-tl-lg border-b-2 border-red-secondary ml-6">
+          <div className="xl:w-[20%] lg:w-[20%] w-full p-2 flex bg-gray-tertiary rounded-tr-lg rounded-tl-lg border-b-2 border-red-secondary lg:ml-6 xl:ml-6 my-4 lg:my-0 xl:my-0">
             <button
               id="dropdownDefaultButton"
               data-dropdown-toggle="dropdown"
@@ -27,7 +27,7 @@ const BookingsBar = () => {
             </button>
             <ChevronDown size={20} color="#d21243" className="my-auto" />
           </div>
-          <div className="w-[20%] p-2 flex bg-gray-tertiary rounded-tr-lg rounded-tl-lg border-b-2 border-red-secondary ml-6">
+          <div className="xl:w-[20%] lg:w-[20%] w-full p-2 flex bg-gray-tertiary rounded-tr-lg rounded-tl-lg border-b-2 border-red-secondary lg:ml-6 xl:ml-6 my-4 lg:my-0 xl:my-0">
             <button
               id="dropdownDefaultButton"
               data-dropdown-toggle="dropdown"
@@ -38,14 +38,14 @@ const BookingsBar = () => {
             </button>
             <Calendar size={20} color="#d21243" className="my-auto" />
           </div>
-          <div className="w-[20%] p-2 flex bg-gray-tertiary rounded-tr-lg rounded-tl-lg border-b-2 border-red-secondary ml-6">
+          <div className="xl:w-[20%] lg:w-[20%] w-full p-2 flex bg-gray-tertiary rounded-tr-lg rounded-tl-lg border-b-2 border-red-secondary lg:ml-6 xl:ml-6 my-4 lg:my-0 xl:my-0">
             <button
               id="dropdownDefaultButton"
               data-dropdown-toggle="dropdown"
               className="text-gray-secondary font-primary regular-24 grow text-left "
               type="button"
             >
-              <span className="ml-2">Check Out</span>
+              Check Out
             </button>
             <Calendar size={20} color="#d21243" className="my-auto" />
           </div>
